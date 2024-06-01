@@ -1,7 +1,7 @@
 import datetime
 import pytz
 
-end_datetime = datetime.datetime(2022,6, 3, 0, 0, 0) #
+end_datetime = datetime.datetime(2024,6, 3, 0, 0, 0) #
 iraq_timezone = pytz.timezone("Asia/Baghdad") #
 
 remaining_time = end_datetime.astimezone(iraq_timezone) - datetime.datetime.now(iraq_timezone)
